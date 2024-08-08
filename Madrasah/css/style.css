@@ -1,0 +1,172 @@
+
+.content-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.main-content {
+    margin-left: 200px;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+}
+
+.custom-input2 {
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #bdbdbd;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #4a4a4a;
+}
+
+.custom-input2::placeholder {
+    color: #bdbdbd;
+}
+
+.hidden {
+    display: none;
+}
+
+.tabs {
+    margin-bottom: 1.5rem;
+}
+
+.file-label .icon {
+    margin-left: 10px;
+}
+
+.image.is-128x128 {
+    margin-bottom: 10px;
+}
+
+#remove-picture {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.tabs ul li.is-active a {
+    border-color: #000;
+    color: #000;
+}
+
+.tabs ul li a {
+    color: #000;
+}
+
+.tabs ul li a:hover {
+    background-color: #00b89c;
+}
+
+.tabs ul li.is-active.light-theme a {
+    color: #000;
+}
+
+.button.is-custom {
+    background-color: #3699FF;
+    border-color: #fff;
+    color: #fff;
+}
+
+.button.is-custom:hover,
+.button.custom.is-hovered {
+    background-color: #ffff;
+    border-color: #3699FF;
+    color: #3699FF
+}
+
+.button.is-custom.is-outlined:hover,
+.button.is-custom.is-outlined.is-hovered,
+.button.is-custom.is-outlined:focus,
+.button.is-custom.is-outlined.is-focused {
+    background-color: #fff;
+    border-color: #fff;
+    color: #3699FF
+}
+
+.button.is-custom2 {
+    background-color: #7A97A9;
+    border-color: #fff;
+    color: #fff
+}
+
+.button.is-custom2:hover,
+.button.custom2.is-hovered {
+    background-color: #fff;
+    border-color: #7A97A9;
+    color: #7A97A9
+}
+
+.button.is-custom2.is-outlined:hover,
+.button.is-custom2.is-outlined.is-hovered,
+.button.is-custom2.is-outlined:focus,
+.button.is-custom2.is-outlined.is-focused {
+    background-color: #fff;
+    border-color: #fff;
+    color: #7A97A9
+}
+
+.button.is-custom3 {
+    background-color: #36B538;
+    border-color: #fff;
+    color: #fff
+}
+
+.button.is-custom3:hover,
+.button.custom3.is-hovered {
+    background-color: #fff;
+    border-color: #36B538;
+    color: #36B538
+}
+
+.button.is-custom3.is-outlined:hover,
+.button.is-custom3.is-outlined.is-hovered,
+.button.is-custom3.is-outlined:focus,
+.button.is-custom3.is-outlined.is-focused {
+    background-color: #fff;
+    border-color: #fff;
+    color: #36B538
+}
+
+.button.is-custom4 {
+    background-color: #384D6C;
+    border-color: #fff;
+    color: #fff;
+}
+
+.button.is-custom4:hover,
+.button.custom.is-hovered {
+    background-color: #ffff;
+    border-color: #384D6C;
+    color: #384D6C
+}
+
+.button.is-custom4.is-outlined:hover,
+.button.is-custom4.is-outlined.is-hovered,
+.button.is-custom4.is-outlined:focus,
+.button.is-custom4.is-outlined.is-focused {
+    background-color: #fff;
+    border-color: #fff;
+    color: #384D6C
+}
+
+.custom-bg {
+    background: rgb(211, 217, 220);
+    background: linear-gradient(0deg, rgba(211, 217, 220, 1) 0%, rgba(216, 104, 176, 1) 100%);
+}
+
+.custom-bg2 {
+    background: rgb(221, 158, 97);
+    background: linear-gradient(0deg, rgba(221, 158, 97, 1) 0%, rgba(174, 180, 250, 1) 100%);
+}
+
+.custom-bg3 {
+    background: rgb(221, 158, 97);
+    background: linear-gradient(0deg, rgba(221, 158, 97, 1) 0%, rgba(226, 158, 159, 1) 100%);
+}
+
+.custom-bg4 {
+    background: rgb(235, 188, 160);
+    background: linear-gradient(0deg, rgba(235, 188, 160, 1) 0%, rgba(208, 166, 253, 1) 100%);
+}
